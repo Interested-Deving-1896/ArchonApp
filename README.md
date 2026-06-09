@@ -1,22 +1,75 @@
-# Archon App
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# ArchonApp
 
-Electron desktop application — the command center for the Archon development orchestration platform.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/ArchonApp)
 
-## Tech Stack
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-- Electron (electron-vite)
-- React 19 + TypeScript
-- Vite
-- Tailwind CSS + shadcn/ui
-- Monaco Editor
-- Zustand (state management)
-- Ably (real-time client)
-- simple-git (git operations)
+## Architecture
 
-## Overview
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-Archon App is the desktop shell that orchestrates AI-powered development workflows. It manages projects, work items, skill files, prompt composition, and tool launching (VS Code, Claude Code) — all from a single interface.
+## Install
 
-## Setup
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-_Setup instructions will be added once the project is scaffolded._
+```bash
+git clone https://github.com/Interested-Deving-1896/ArchonApp.git
+cd ArchonApp
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/ArchonApp`](https://github.com/Interested-Deving-1896/ArchonApp) and mirrored through:
+
+```
+Interested-Deving-1896/ArchonApp  ──►  OpenOS-Project-OSP/ArchonApp  ──►  OpenOS-Project-Ecosystem-OOC/ArchonApp
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
