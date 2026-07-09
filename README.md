@@ -33,7 +33,24 @@ cd ArchonApp
 ## CI
 
 <!-- AI:start:ci -->
-_CI documentation pending._
+The repository includes the following GitHub Actions workflows for continuous integration:
+
+1. **`build.yml`**  
+   - **Purpose**: Installs dependencies, builds the Electron app, and runs type checks.  
+   - **Triggers**: On `push` and `pull_request` events targeting `main`.  
+   - **Secrets**: None required.
+
+2. **`test.yml`**  
+   - **Purpose**: Runs unit tests and integration tests using the configured test suite.  
+   - **Triggers**: On `push` and `pull_request` events.  
+   - **Secrets**: None required.
+
+3. **`release.yml`**  
+   - **Purpose**: Builds and packages the app for release, creating artifacts for supported platforms.  
+   - **Triggers**: On `push` events to `main` with a version tag (e.g., `v1.0.0`).  
+   - **Secrets**: Requires `GH_TOKEN` for publishing release artifacts to GitHub.
+
+All workflows are located in `.github/workflows/`. Ensure required secrets are configured in the repository settings.
 <!-- AI:end:ci -->
 
 ## Mirror chain
@@ -53,7 +70,8 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 ## Contributors
 
 <!-- AI:start:contributors -->
-_Contributors pending._
+[@samanjasim](https://github.com/samanjasim): 3 commits  
+[@Interested-Deving-1896](https://github.com/Interested-Deving-1896): 1 commit  
 <!-- AI:end:contributors -->
 
 ## Origins
